@@ -1,0 +1,12 @@
+.comment-item {
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.comment-item:nth-child(odd) {
+  background: #e7e7e7;
+}
+
+.comments-wrapper {
+  margin-top: 24px;
+}
