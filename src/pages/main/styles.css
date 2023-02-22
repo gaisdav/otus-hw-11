@@ -1,0 +1,8 @@
+.course-item {
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.course-item:nth-child(odd) {
+  background: #c7c6c6;
+}

@@ -1,0 +1,8 @@
+.class-item {
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.class-item:nth-child(odd) {
+  background: #e7e7e7;
+}
