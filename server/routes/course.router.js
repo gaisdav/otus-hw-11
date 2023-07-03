@@ -18,4 +18,9 @@ courseRouter.post("/", async (req, res) => {
   res.send(courseEntity);
 });
 
+courseRouter.delete("/:id", async (req, res) => {
+  await CourseModel.findByIdAndDelete(req.params.id);
+  res.send({});
+});
+
 module.exports = courseRouter;
